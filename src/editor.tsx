@@ -1,28 +1,14 @@
-import { EditorState } from "@codemirror/state"
-import { basicSetup } from "codemirror"
-import { EditorView, keymap, } from "@codemirror/view"
 import { json } from "@codemirror/lang-json"
-import { useEffect } from "react"
 import "./editor.scss"
 import usePolicyState from "./state.js"
-
-
-export function createEditor() {
-  console.log("test");
-  let startState = EditorState.create({
-    doc: usePolicyState.getState().policy,
-    extensions: [basicSetup, json()]
-  })
-
-  return new EditorView({
-    state: startState,
-    parent: document.getElementById("editor")!,
-  })
-}
+import ReactCodeMirror from "@uiw/react-codemirror"
 
 export function Editor() {
-  useEffect(() => {
-    createEditor()
-  }, [])
-  return <div id="editor" className="h-100"></div>
+  const [policy, setPolicy] = usePolicyState(state => [state.policy, state.updatePolicy])
+  return <ReactCodeMirror
+    value={policy}
+    onChange={(value) => setPolicy(value)}
+    extensions={[json()]}
+    className="h-100"
+  />
 }
