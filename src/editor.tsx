@@ -4,12 +4,13 @@ import { EditorView, keymap, } from "@codemirror/view"
 import { json } from "@codemirror/lang-json"
 import { useEffect } from "react"
 import "./editor.scss"
+import usePolicyState from "./state.js"
 
 
 export function createEditor() {
   console.log("test");
   let startState = EditorState.create({
-    doc: "Hello World",
+    doc: usePolicyState.getState().policy,
     extensions: [basicSetup, json()]
   })
 
