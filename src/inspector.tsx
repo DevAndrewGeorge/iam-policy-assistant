@@ -1,5 +1,6 @@
 import usePolicyState from "./state.js";
 import { useState } from "react";
+import CharacterCounter from "./inspector/CharacterCounter.js";
 
 export function Inspector() {
     const policy = usePolicyState(state => state.policy);
@@ -13,6 +14,7 @@ export function Inspector() {
     } catch (_) { }
     return <>
         Inspector.
+        <CharacterCounter />
         <br />
         Number of statements: {statements}
     </>;

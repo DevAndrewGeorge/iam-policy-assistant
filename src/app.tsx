@@ -4,6 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Inspector } from "./inspector.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
     return <Row className="vw-100 vh-100">
