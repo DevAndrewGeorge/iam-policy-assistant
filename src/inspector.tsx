@@ -2,6 +2,7 @@ import usePolicyState from "./state.js";
 import { useState } from "react";
 import CharacterCounter from "./inspector/CharacterCounter.js";
 import SyntaxValidator from "./inspector/SyntaxValidator.js";
+import PolicyAnalysis from "./inspector/StatementAnalysis.js";
 
 export function Inspector() {
     const policy = usePolicyState(state => state.policy);
@@ -16,6 +17,6 @@ export function Inspector() {
     return <>
         <CharacterCounter />
         <SyntaxValidator />
-        Number of statements: {statements}
+        <PolicyAnalysis />
     </>;
 }
