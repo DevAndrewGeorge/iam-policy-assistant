@@ -9,6 +9,6 @@ export function Editor() {
     value={policy}
     onChange={(value) => setPolicy(value)}
     extensions={[json()]}
-    className="h-100"
+    className="h-100 vh-100"
   />
 }
