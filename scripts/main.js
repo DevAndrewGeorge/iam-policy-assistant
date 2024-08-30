@@ -8,8 +8,9 @@ function getServiceAcctions(url) {
     return fetch(url).then(
         async response => {
             const root = parse(await response.text())
+            const service_name = url.split('/').pop().split('.')[0].split("_")[1];
             const service_prefix = root.querySelectorAll("p > code")[0];
-            const actions = root.querySelectorAll(`tr > td > a`).map(e => e.text);
+            const actions = root.querySelectorAll(`td[id^="${service_name}"] > a`).map(e => e.text).filter(action => action[0] === action[0].toUpperCase());
 
             if (actions.length === 0 && service_prefix === undefined) {
                 console.log(`No actions found for ${url}`);
@@ -36,6 +37,10 @@ fetch(
         for (const action of actions) {
             Object.assign(actions_map, action);
         }
-        fs.writeFileSync('actions.json', JSON.stringify(actions_map, null, 2));
+
+        fs.writeFileSync(
+            'actions.js',
+            `export default JSON.parse(\`${JSON.stringify(actions_map)}\`);`
+        );
     }
 )
