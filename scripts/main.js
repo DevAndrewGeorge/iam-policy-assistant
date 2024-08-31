@@ -40,7 +40,7 @@ fetch(
 
         fs.writeFileSync(
             'actions.js',
-            `export default JSON.parse(\`${JSON.stringify(actions_map)}\`);`
+            `export default JSON.parse(\`${JSON.stringify(actions_map, null, 2)}\`);`
         );
     }
 )
