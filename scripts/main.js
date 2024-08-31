@@ -10,7 +10,17 @@ function getServiceAcctions(url) {
             const root = parse(await response.text())
             const service_name = url.split('/').pop().split('.')[0].split("_")[1];
             const service_prefix = root.querySelectorAll("p > code")[0];
-            const actions = root.querySelectorAll(`td[id^="${service_name}"] > a`).map(e => e.text).filter(action => action[0] === action[0].toUpperCase());
+
+            let actions_table, resources_table, condition_keys_table;
+            console.log(url)
+            root.querySelectorAll("th:first-child").forEach(e => {
+                // console.log(e.closest("table"))
+                if (e.text === "Actions") actions_table = e.closest("table").querySelector("td:first-child").parentNode.parentNode;
+                if (e.text === "Resource types") resources_table = e.closest("table").querySelector("td:first-child").parentNode.parentNode;
+                if (e.text === "Condition keys") condition_keys_table = e.closest("table").querySelector("td:first-child").parentNode.parentNode;
+            })
+
+            const actions = actions_table.querySelectorAll(`tr > td:first-child > a`).map(e => e.text).filter(action => action[0] === action[0].toUpperCase());
 
             if (actions.length === 0 && service_prefix === undefined) {
                 console.log(`No actions found for ${url}`);

@@ -229,11 +229,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateComponent",
     "UpdateForm",
-    "UpdateTheme",
-    "CodegenJobResource",
-    "ComponentResource",
-    "FormResource",
-    "ThemeResource"
+    "UpdateTheme"
   ],
   "kafka-cluster": [
     "AlterCluster",
@@ -266,36 +262,7 @@ export default JSON.parse(`{
     "GET",
     "PATCH",
     "POST",
-    "PUT",
-    "AccessLogSettings",
-    "Api",
-    "Apis",
-    "ApiMapping",
-    "ApiMappings",
-    "Authorizer",
-    "Authorizers",
-    "AuthorizersCache",
-    "Cors",
-    "Deployment",
-    "Deployments",
-    "ExportedAPI",
-    "Integration",
-    "Integrations",
-    "IntegrationResponse",
-    "IntegrationResponses",
-    "Model",
-    "Models",
-    "ModelTemplate",
-    "Route",
-    "Routes",
-    "RouteResponse",
-    "RouteResponses",
-    "RouteRequestParameter",
-    "RouteSettings",
-    "Stage",
-    "Stages",
-    "VpcLink",
-    "VpcLinks"
+    "PUT"
   ],
   "appmesh": [
     "CreateGatewayRoute",
@@ -590,8 +557,7 @@ export default JSON.parse(`{
     "PutScheduledAction",
     "RegisterScalableTarget",
     "TagResource",
-    "UntagResource",
-    "ScalableTarget"
+    "UntagResource"
   ],
   "application-cost-profiler": [
     "DeleteReportDefinition",
@@ -739,17 +705,7 @@ export default JSON.parse(`{
     "UpdateSourceServer",
     "UpdateSourceServerReplicationType",
     "UpdateWave",
-    "VerifyClientRoleForMgn",
-    "JobResource",
-    "ReplicationConfigurationTemplateResource",
-    "LaunchConfigurationTemplateResource",
-    "VcenterClientResource",
-    "SourceServerResource",
-    "ApplicationResource",
-    "WaveResource",
-    "ImportResource",
-    "ExportResource",
-    "ConnectorResource"
+    "VerifyClientRoleForMgn"
   ],
   "application-transformation": [
     "GetContainerization",
@@ -1542,8 +1498,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateEvent",
     "UpdateWorkItem",
-    "UpdateWorkItemAdmin",
-    "Event"
+    "UpdateWorkItemAdmin"
   ],
   "acm": [
     "AddTagsToCertificate",
@@ -1593,8 +1548,7 @@ export default JSON.parse(`{
     "UpdateAccountPreferences",
     "UpdateChimeWebhookConfiguration",
     "UpdateMicrosoftTeamsChannelConfiguration",
-    "UpdateSlackChannelConfiguration",
-    "ChatbotConfiguration"
+    "UpdateSlackChannelConfiguration"
   ],
   "chime": [
     "AcceptDelegate",
@@ -2420,8 +2374,7 @@ export default JSON.parse(`{
     "GetFileUploadUrls",
     "PutCredentials",
     "StartEnvironment",
-    "StopEnvironment",
-    "Environment"
+    "StopEnvironment"
   ],
   "cloudtrail": [
     "AddTags",
@@ -2629,12 +2582,7 @@ export default JSON.parse(`{
     "UpdateFeature",
     "UpdateLaunch",
     "UpdateProject",
-    "UpdateProjectDataDelivery",
-    "Project",
-    "Feature",
-    "Experiment",
-    "Launch",
-    "Segment"
+    "UpdateProjectDataDelivery"
   ],
   "internetmonitor": [
     "CreateMonitor",
@@ -2653,10 +2601,7 @@ export default JSON.parse(`{
     "StopQuery",
     "TagResource",
     "UntagResource",
-    "UpdateMonitor",
-    "HealthEvent",
-    "Monitor",
-    "InternetEvent"
+    "UpdateMonitor"
   ],
   "logs": [
     "AssociateKmsKey",
@@ -2771,9 +2716,7 @@ export default JSON.parse(`{
     "PutSinkPolicy",
     "TagResource",
     "UntagResource",
-    "UpdateLink",
-    "Link",
-    "Sink"
+    "UpdateLink"
   ],
   "rum": [
     "BatchCreateRumMetricDefinitions",
@@ -2792,8 +2735,7 @@ export default JSON.parse(`{
     "TagResource",
     "UntagResource",
     "UpdateAppMonitor",
-    "UpdateRumMetricDefinition",
-    "AppMonitorResource"
+    "UpdateRumMetricDefinition"
   ],
   "synthetics": [
     "AssociateResource",
@@ -3093,10 +3035,7 @@ export default JSON.parse(`{
     "UpdateRepositoryLink",
     "UpdateSyncBlocker",
     "UpdateSyncConfiguration",
-    "UseConnection",
-    "Connection",
-    "Host",
-    "RepositoryLink"
+    "UseConnection"
   ],
   "codedeploy": [
     "AddTagsToOnPremisesInstances",
@@ -3179,8 +3118,7 @@ export default JSON.parse(`{
     "SubmitFeedback",
     "TagResource",
     "UntagResource",
-    "UpdateProfilingGroup",
-    "ProfilingGroup"
+    "UpdateProfilingGroup"
   ],
   "codeguru-reviewer": [
     "AssociateRepository",
@@ -3216,8 +3154,7 @@ export default JSON.parse(`{
     "ListTagsForResource",
     "TagResource",
     "UntagResource",
-    "UpdateAccountConfiguration",
-    "ScanName"
+    "UpdateAccountConfiguration"
   ],
   "codepipeline": [
     "AcknowledgeJob",
@@ -3322,10 +3259,7 @@ export default JSON.parse(`{
     "UpdateRepositoryLink",
     "UpdateSyncBlocker",
     "UpdateSyncConfiguration",
-    "UseConnection",
-    "Connection",
-    "Host",
-    "RepositoryLink"
+    "UseConnection"
   ],
   "codestar-notifications": [
     "CreateNotificationRule",
@@ -3752,15 +3686,7 @@ export default JSON.parse(`{
     "StartResourceEvaluation",
     "StopConfigurationRecorder",
     "TagResource",
-    "UntagResource",
-    "AggregationAuthorization",
-    "ConfigurationAggregator",
-    "ConfigRule",
-    "ConformancePack",
-    "OrganizationConfigRule",
-    "OrganizationConformancePack",
-    "RemediationConfiguration",
-    "StoredQuery"
+    "UntagResource"
   ],
   "connect": [
     "ActivateEvaluationForm",
@@ -4059,13 +3985,7 @@ export default JSON.parse(`{
     "UpdateCase",
     "UpdateField",
     "UpdateLayout",
-    "UpdateTemplate",
-    "Case",
-    "Domain",
-    "Field",
-    "Layout",
-    "RelatedItem",
-    "Template"
+    "UpdateTemplate"
   ],
   "profile": [
     "AddProfileKey",
@@ -4163,8 +4083,7 @@ export default JSON.parse(`{
   ],
   "consoleapp": [
     "GetDeviceIdentity",
-    "ListDeviceIdentities",
-    "DeviceIdentity"
+    "ListDeviceIdentities"
   ],
   "consolidatedbilling": [
     "GetAccountBillingRole",
@@ -4241,11 +4160,7 @@ export default JSON.parse(`{
     "UpdateAccountFactoryConfig",
     "UpdateEnabledBaseline",
     "UpdateEnabledControl",
-    "UpdateLandingZone",
-    "EnabledControl",
-    "Baseline",
-    "EnabledBaseline",
-    "LandingZone"
+    "UpdateLandingZone"
   ],
   "cur": [
     "DeleteReportDefinition",
@@ -4533,20 +4448,7 @@ export default JSON.parse(`{
     "UpdateInstanceProfile",
     "UpdateMigrationProject",
     "UpdateSubscriptionsToEventBridge",
-    "UploadFileMetadataList",
-    "Certificate",
-    "DataProvider",
-    "DataMigration",
-    "Endpoint",
-    "EventSubscription",
-    "InstanceProfile",
-    "MigrationProject",
-    "ReplicationConfig",
-    "ReplicationInstance",
-    "ReplicationSubnetGroup",
-    "ReplicationTask",
-    "ReplicationTaskAssessmentRun",
-    "ReplicationTaskIndividualAssessment"
+    "UploadFileMetadataList"
   ],
   "dbqms": [
     "CreateFavoriteQuery",
@@ -5006,8 +4908,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateDatasourcePackages",
     "UpdateInvestigationState",
-    "UpdateOrganizationConfiguration",
-    "Graph"
+    "UpdateOrganizationConfiguration"
   ],
   "devicefarm": [
     "CreateDevicePool",
@@ -6478,13 +6379,7 @@ export default JSON.parse(`{
     "UpdateLaunchConfigurationTemplate",
     "UpdateReplicationCertificateForDrs",
     "UpdateReplicationConfiguration",
-    "UpdateReplicationConfigurationTemplate",
-    "JobResource",
-    "RecoveryInstanceResource",
-    "ReplicationConfigurationTemplateResource",
-    "LaunchConfigurationTemplateResource",
-    "SourceServerResource",
-    "SourceNetworkResource"
+    "UpdateReplicationConfigurationTemplate"
   ],
   "elasticfilesystem": [
     "Backup",
@@ -6900,14 +6795,7 @@ export default JSON.parse(`{
     "UpdateFlowMediaStream",
     "UpdateFlowOutput",
     "UpdateFlowSource",
-    "UpdateGatewayInstance",
-    "Entitlement",
-    "Flow",
-    "Output",
-    "Source",
-    "Gateway",
-    "Bridge",
-    "GatewayInstance"
+    "UpdateGatewayInstance"
   ],
   "mediaconvert": [
     "AssociateCertificate",
@@ -6938,12 +6826,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateJobTemplate",
     "UpdatePreset",
-    "UpdateQueue",
-    "Job",
-    "Queue",
-    "Preset",
-    "JobTemplate",
-    "CertificateAssociation"
+    "UpdateQueue"
   ],
   "medialive": [
     "AcceptInputDeviceTransfer",
@@ -7087,10 +6970,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateChannel",
     "UpdateChannelGroup",
-    "UpdateOriginEndpoint",
-    "ChannelGroup",
-    "Channel",
-    "OriginEndpoint"
+    "UpdateOriginEndpoint"
   ],
   "mediapackage-vod": [
     "ConfigureLogs",
@@ -7279,12 +7159,7 @@ export default JSON.parse(`{
     "UpdateMatchingWorkflow",
     "UpdateSchemaMapping",
     "UseIdNamespace",
-    "UseWorkflow",
-    "MatchingWorkflow",
-    "SchemaMapping",
-    "IdMappingWorkflow",
-    "ProviderService",
-    "IdNamespace"
+    "UseWorkflow"
   ],
   "events": [
     "ActivateEventSource",
@@ -8245,13 +8120,7 @@ export default JSON.parse(`{
     "UpdateRecipe",
     "UpdateRecipeJob",
     "UpdateRuleset",
-    "UpdateSchedule",
-    "Project",
-    "Dataset",
-    "Ruleset",
-    "Recipe",
-    "Job",
-    "Schedule"
+    "UpdateSchedule"
   ],
   "groundstation": [
     "CancelContact",
@@ -8286,15 +8155,7 @@ export default JSON.parse(`{
     "UpdateAgentStatus",
     "UpdateConfig",
     "UpdateEphemeris",
-    "UpdateMissionProfile",
-    "Config",
-    "Contact",
-    "DataflowEndpointGroup",
-    "EphemerisItem",
-    "GroundStationResource",
-    "MissionProfile",
-    "Satellite",
-    "Agent"
+    "UpdateMissionProfile"
   ],
   "groundtruthlabeling": [
     "AssociatePatchToManifestJob",
@@ -8538,14 +8399,7 @@ export default JSON.parse(`{
     "UpdateRunGroup",
     "UpdateVariantStore",
     "UpdateWorkflow",
-    "UploadReadSetPart",
-    "AnnotationImportJob",
-    "AnnotationStore",
-    "AnnotationStoreVersion",
-    "TaggingResource",
-    "TaskResource",
-    "VariantImportJob",
-    "VariantStore"
+    "UploadReadSetPart"
   ],
   "connect-campaigns": [
     "CreateCampaign",
@@ -8637,9 +8491,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateArchiveRule",
     "UpdateFindings",
-    "ValidatePolicy",
-    "Analyzer",
-    "ArchiveRule"
+    "ValidatePolicy"
   ],
   "sso": [
     "AssociateDirectory",
@@ -8767,13 +8619,7 @@ export default JSON.parse(`{
     "UpdateProfile",
     "UpdateSSOConfiguration",
     "UpdateTrust",
-    "UpdateTrustedTokenIssuer",
-    "PermissionSet",
-    "Account",
-    "Instance",
-    "Application",
-    "TrustedTokenIssuer",
-    "ApplicationProvider"
+    "UpdateTrustedTokenIssuer"
   ],
   "sso-directory": [
     "AddMemberToGroup",
@@ -8830,8 +8676,7 @@ export default JSON.parse(`{
     "VerifyEmail"
   ],
   "sso-oauth": [
-    "CreateTokenWithIAM",
-    "Application"
+    "CreateTokenWithIAM"
   ],
   "iam": [
     "AddClientIDToOpenIDConnectProvider",
@@ -9057,14 +8902,7 @@ export default JSON.parse(`{
     "ListGroups",
     "ListUsers",
     "UpdateGroup",
-    "UpdateUser",
-    "Identitystore",
-    "User",
-    "Group",
-    "GroupMembership",
-    "AllUsers",
-    "AllGroups",
-    "AllGroupMemberships"
+    "UpdateUser"
   ],
   "identitystore-auth": [
     "BatchDeleteSession",
@@ -9084,9 +8922,7 @@ export default JSON.parse(`{
     "ListSyncFilters",
     "StartSync",
     "StopSync",
-    "UpdateSyncTarget",
-    "SyncProfileResource",
-    "SyncTargetResource"
+    "UpdateSyncTarget"
   ],
   "importexport": [
     "CancelJob",
@@ -9194,10 +9030,7 @@ export default JSON.parse(`{
     "UpdateEncryptionKey",
     "UpdateFilter",
     "UpdateOrgEc2DeepInspectionConfiguration",
-    "UpdateOrganizationConfiguration",
-    "Filter",
-    "Finding",
-    "CIS Scan Configuration"
+    "UpdateOrganizationConfiguration"
   ],
   "inspector-scan": [
     "ScanSbom"
@@ -9265,17 +9098,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateChannel",
     "UpdatePlaybackRestrictionPolicy",
-    "UpdateStage",
-    "Channel",
-    "Stream-Key",
-    "Playback-Key-Pair",
-    "Playback-Restriction-Policy",
-    "Recording-Configuration",
-    "Stage",
-    "Composition",
-    "Encoder-Configuration",
-    "Storage-Configuration",
-    "Public-Key"
+    "UpdateStage"
   ],
   "ivschat": [
     "CreateChatToken",
@@ -9294,9 +9117,7 @@ export default JSON.parse(`{
     "TagResource",
     "UntagResource",
     "UpdateLoggingConfiguration",
-    "UpdateRoom",
-    "Room",
-    "Logging-Configuration"
+    "UpdateRoom"
   ],
   "invoicing": [
     "GetInvoiceEmailDeliveryPreferences",
@@ -9655,9 +9476,7 @@ export default JSON.parse(`{
     "StopSuiteRun",
     "TagResource",
     "UntagResource",
-    "UpdateSuiteDefinition",
-    "Suitedefinition",
-    "Suiterun"
+    "UpdateSuiteDefinition"
   ],
   "iot-device-tester": [
     "CheckVersion",
@@ -9828,11 +9647,7 @@ export default JSON.parse(`{
     "UpdateDestination",
     "UpdateSite",
     "UpdateWorker",
-    "UpdateWorkerFleet",
-    "DestinationResource",
-    "SiteResource",
-    "WorkerFleetResource",
-    "WorkerResource"
+    "UpdateWorkerFleet"
   ],
   "iotsitewise": [
     "AssociateAssets",
@@ -10077,18 +9892,7 @@ export default JSON.parse(`{
     "UpdateResourcePosition",
     "UpdateWirelessDevice",
     "UpdateWirelessDeviceImportTask",
-    "UpdateWirelessGateway",
-    "WirelessDevice",
-    "WirelessGateway",
-    "DeviceProfile",
-    "ServiceProfile",
-    "Destination",
-    "SidewalkAccount",
-    "WirelessGatewayTaskDefinition",
-    "FuotaTask",
-    "MulticastGroup",
-    "NetworkAnalyzerConfiguration",
-    "ImportTask"
+    "UpdateWirelessGateway"
   ],
   "iq": [
     "AcceptCall",
@@ -10969,26 +10773,7 @@ export default JSON.parse(`{
     "UpdateInstanceMetadataOptions",
     "UpdateLoadBalancerAttribute",
     "UpdateRelationalDatabase",
-    "UpdateRelationalDatabaseParameters",
-    "Domain",
-    "Instance",
-    "InstanceSnapshot",
-    "KeyPair",
-    "StaticIp",
-    "Disk",
-    "DiskSnapshot",
-    "LoadBalancer",
-    "LoadBalancerTlsCertificate",
-    "ExportSnapshotRecord",
-    "CloudFormationStackRecord",
-    "RelationalDatabase",
-    "RelationalDatabaseSnapshot",
-    "Alarm",
-    "Certificate",
-    "ContactMethod",
-    "ContainerService",
-    "Distribution",
-    "Bucket"
+    "UpdateRelationalDatabaseParameters"
   ],
   "geo": [
     "AssociateTrackerConsumer",
@@ -11133,10 +10918,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateAlert",
     "UpdateAnomalyDetector",
-    "UpdateMetricSet",
-    "AnomalyDetector",
-    "MetricSet",
-    "Alert"
+    "UpdateMetricSet"
   ],
   "lookoutvision": [
     "CreateDataset",
@@ -11276,12 +11058,7 @@ export default JSON.parse(`{
     "UpdateResourceProfile",
     "UpdateResourceProfileDetections",
     "UpdateRevealConfiguration",
-    "UpdateSensitivityInspectionTemplate",
-    "AllowList",
-    "ClassificationJob",
-    "CustomDataIdentifier",
-    "FindingsFilter",
-    "Member"
+    "UpdateSensitivityInspectionTemplate"
   ],
   "apptest": [
     "CreateTestCase",
@@ -11307,11 +11084,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateTestCase",
     "UpdateTestConfiguration",
-    "UpdateTestSuite",
-    "TestCase",
-    "TestConfiguration",
-    "TestRun",
-    "TestSuite"
+    "UpdateTestSuite"
   ],
   "m2": [
     "CancelBatchJobExecution",
@@ -11347,9 +11120,7 @@ export default JSON.parse(`{
     "TagResource",
     "UntagResource",
     "UpdateApplication",
-    "UpdateEnvironment",
-    "Application",
-    "Environment"
+    "UpdateEnvironment"
   ],
   "managedblockchain": [
     "CreateAccessor",
@@ -11555,8 +11326,7 @@ export default JSON.parse(`{
     "UpdateEnvironment"
   ],
   "aws-marketplace": [
-    "GetSellerDashboard",
-    "SellerDashboard"
+    "GetSellerDashboard"
   ],
   "marketplacecommerceanalytics": [],
   "aws-marketplace-management": [
@@ -11593,9 +11363,7 @@ export default JSON.parse(`{
     "UpdateDataSource",
     "UpdateSecurityProfile",
     "UpdateSecurityProfileSnapshotCreationConfiguration",
-    "UpdateSecurityProfileSnapshotReleaseConfiguration",
-    "DataSource",
-    "SecurityProfile"
+    "UpdateSecurityProfileSnapshotReleaseConfiguration"
   ],
   "mechanicalturk": [
     "AcceptQualificationRequest",
@@ -11972,12 +11740,7 @@ export default JSON.parse(`{
     "UpdateLoggingConfiguration",
     "UpdateRuleGroup",
     "UpdateSubnetChangeProtection",
-    "UpdateTLSInspectionConfiguration",
-    "Firewall",
-    "FirewallPolicy",
-    "StatefulRuleGroup",
-    "StatelessRuleGroup",
-    "TLSInspectionConfiguration"
+    "UpdateTLSInspectionConfiguration"
   ],
   "networkmanager": [
     "AcceptAttachment",
@@ -12213,9 +11976,7 @@ export default JSON.parse(`{
     "UpdateLifecyclePolicy",
     "UpdateSecurityConfig",
     "UpdateSecurityPolicy",
-    "UpdateVpcEndpoint",
-    "Collection",
-    "Dashboards"
+    "UpdateVpcEndpoint"
   ],
   "es": [
     "AcceptInboundConnection",
@@ -13016,16 +12777,7 @@ export default JSON.parse(`{
     "UpdateProtectConfiguration",
     "UpdateProtectConfigurationCountryRuleSet",
     "UpdateSenderId",
-    "VerifyDestinationNumber",
-    "ConfigurationSet",
-    "OptOutList",
-    "PhoneNumber",
-    "Pool",
-    "ProtectConfiguration",
-    "SenderId",
-    "Registration",
-    "RegistrationAttachment",
-    "VerifiedDestinationNumber"
+    "VerifyDestinationNumber"
   ],
   "polly": [
     "DeleteLexicon",
@@ -13070,12 +12822,7 @@ export default JSON.parse(`{
     "TagResource",
     "UntagResource",
     "UpdateTemplate",
-    "UpdateTemplateGroupAccessControlEntry",
-    "Connector",
-    "DirectoryRegistration",
-    "ServicePrincipalName",
-    "Template",
-    "TemplateGroupAccessControlEntry"
+    "UpdateTemplateGroupAccessControlEntry"
   ],
   "pca-connector-scep": [
     "CreateChallenge",
@@ -13089,9 +12836,7 @@ export default JSON.parse(`{
     "ListConnectors",
     "ListTagsForResource",
     "TagResource",
-    "UntagResource",
-    "Challenge",
-    "Connector"
+    "UntagResource"
   ],
   "acm-pca": [
     "CreateCertificateAuthority",
@@ -13409,14 +13154,7 @@ export default JSON.parse(`{
     "UpdateContent",
     "UpdateKnowledgeBaseTemplateUri",
     "UpdateQuickResponse",
-    "UpdateSession",
-    "Assistant",
-    "AssistantAssociation",
-    "Content",
-    "ContentAssociation",
-    "KnowledgeBase",
-    "Session",
-    "QuickResponse"
+    "UpdateSession"
   ],
   "qldb": [
     "CancelJournalKinesisStream",
@@ -13575,6 +13313,7 @@ export default JSON.parse(`{
     "ListDataSources",
     "ListFolderMembers",
     "ListFolders",
+    "ListFoldersForResource",
     "ListGroupMemberships",
     "ListGroups",
     "ListIAMPolicyAssignments",
@@ -14475,9 +14214,7 @@ export default JSON.parse(`{
     "UpdateAutoshiftObserverNotificationStatus",
     "UpdatePracticeRunConfiguration",
     "UpdateZonalAutoshiftConfiguration",
-    "UpdateZonalShift",
-    "ALB",
-    "NLB"
+    "UpdateZonalShift"
   ],
   "route53domains": [
     "AcceptDomainTransferFromAnotherAwsAccount",
@@ -15342,10 +15079,7 @@ export default JSON.parse(`{
     "StopEarthObservationJob",
     "StopVectorEnrichmentJob",
     "TagResource",
-    "UntagResource",
-    "EarthObservationJob",
-    "RasterDataCollection",
-    "VectorEnrichmentJob"
+    "UntagResource"
   ],
   "sagemaker-groundtruth-synthetic": [
     "CreateProject",
@@ -15443,8 +15177,7 @@ export default JSON.parse(`{
     "UntagResource",
     "UpdateSecret",
     "UpdateSecretVersionStage",
-    "ValidateResourcePolicy",
-    "Secret"
+    "ValidateResourcePolicy"
   ],
   "securityhub": [
     "AcceptAdministratorInvitation",
@@ -15752,11 +15485,7 @@ export default JSON.parse(`{
     "UpdateProvisionedProductProperties",
     "UpdateProvisioningArtifact",
     "UpdateServiceAction",
-    "UpdateTagOption",
-    "Application",
-    "AttributeGroup",
-    "Portfolio",
-    "Product"
+    "UpdateTagOption"
   ],
   "private-networks": [
     "AcknowledgeOrderReceipt",
@@ -15951,8 +15680,7 @@ export default JSON.parse(`{
     "StopClock",
     "StopSimulation",
     "TagResource",
-    "UntagResource",
-    "Simulation"
+    "UntagResource"
   ],
   "snow-device-management": [
     "CancelTask",
@@ -16964,10 +16692,7 @@ export default JSON.parse(`{
     "TagResource",
     "UntagResource",
     "UpdateEventRule",
-    "UpdateNotificationConfiguration",
-    "EventRule",
-    "NotificationConfiguration",
-    "NotificationEvent"
+    "UpdateNotificationConfiguration"
   ],
   "notifications-contacts": [
     "ActivateEmailContact",
@@ -16978,8 +16703,7 @@ export default JSON.parse(`{
     "ListTagsForResource",
     "SendActivationCode",
     "TagResource",
-    "UntagResource",
-    "EmailContactResource"
+    "UntagResource"
   ],
   "user-subscriptions": [
     "CreateClaim",
@@ -17069,21 +16793,11 @@ export default JSON.parse(`{
     "UpdateService",
     "UpdateServiceNetwork",
     "UpdateServiceNetworkVpcAssociation",
-    "UpdateTargetGroup",
-    "ServiceNetwork",
-    "Service",
-    "ServiceNetworkVpcAssociation",
-    "ServiceNetworkServiceAssociation",
-    "TargetGroup",
-    "Listener",
-    "Rule",
-    "AccessLogSubscription"
+    "UpdateTargetGroup"
   ],
   "vpc-lattice-svcs": [
     "Connect",
-    "Invoke",
-    "Service",
-    "TCP Service"
+    "Invoke"
   ],
   "waf": [
     "CreateByteMatchSet",
@@ -17611,8 +17325,7 @@ export default JSON.parse(`{
   ],
   "workmailmessageflow": [
     "GetRawMessageContent",
-    "PutRawMessageContent",
-    "RawMessage"
+    "PutRawMessageContent"
   ],
   "workspaces": [
     "AcceptAccountLinkInvitation",
