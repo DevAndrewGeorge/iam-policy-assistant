@@ -27,10 +27,9 @@ function StatementAnalysis(props: StatementAnalysisProps) {
     const actions = typeof props.statement.Action === "string" ? [props.statement.Action] : props.statement.Action;
     return <Accordion.Item eventKey={String(props.id)}>
         <Accordion.Header>
-            <StatusBadge variant="success" />&nbsp;{title}
+            <StatusBadge variant="success" />&nbsp;{title}&nbsp;<EffectBadger effect={props.statement.Effect} />
         </Accordion.Header>
         <Accordion.Body>
-            <p>Effect: {props.statement.Effect}</p>
             <p>
                 <ActionAnalysis regex_actions={actions} />
             </p>
@@ -87,7 +86,7 @@ function ActionAnalysis(props: { regex_actions: string[] }) {
 }
 
 function ActionBadge(props: { action: string, valid?: boolean }) {
-    const classes = ["rounded-pill", "py-1", "px-2", "m-1", "d-inline-block"];
+    const classes = ["border", "rounded-pill", "py-1", "px-2", "m-1", "d-inline-block"];
     if (props.valid === false) {
         classes.push("bg-danger", "border-danger");
     } else {
@@ -95,5 +94,17 @@ function ActionBadge(props: { action: string, valid?: boolean }) {
     }
     return <div className={classes.join(" ")}>
         {props.action}
+    </div>
+}
+
+function EffectBadger(props: { effect: string }) {
+    const classes = ["border", "rounded-pill", "py-1", "px-2", "m-1", "d-inline-block"];
+    if (props.effect === "Allow") {
+        classes.push("bg-white", "border-success", "text-success");
+    } else {
+        classes.push("bg-white", "border-danger", "text-danger");
+    }
+    return <div className={classes.join(" ")}>
+        {props.effect}
     </div>
 }
